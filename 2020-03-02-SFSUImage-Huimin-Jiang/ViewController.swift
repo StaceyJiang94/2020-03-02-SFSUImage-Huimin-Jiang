@@ -10,11 +10,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var sfsuLabel: UILabel!
+    
+    @IBOutlet weak var sfsuLogo: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        // hide my label at beginning
+        sfsuLabel.text = ""
     }
 
-
+    
+    @IBAction func showUniversityButtonClicked(_ sender: UIButton) {
+        
+        sfsuLabel.text = "San Francisco State University"
+        sfsuLogo.image = UIImage (named: "SFSU logo")
+    }
+    
 }
 
