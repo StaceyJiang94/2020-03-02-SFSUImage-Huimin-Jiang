@@ -30,7 +30,7 @@
                                     <constraint firstAttribute="height" constant="80" id="iJZ-y9-2J6"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
-                                <state key="normal" title="Show My University"/>
+                                <state key="normal" title="Show My Movie"/>
                                 <connections>
                                     <action selector="showUniversityButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3gX-RT-LCG"/>
                                 </connections>

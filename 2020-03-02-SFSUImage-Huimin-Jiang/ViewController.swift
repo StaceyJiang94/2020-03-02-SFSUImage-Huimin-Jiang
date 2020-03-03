@@ -23,8 +23,8 @@ class ViewController: UIViewController {
     
     @IBAction func showUniversityButtonClicked(_ sender: UIButton) {
         
-        sfsuLabel.text = "San Francisco State University"
-        sfsuLogo.image = UIImage (named: "SFSU logo")
+        sfsuLabel.text = "Detective Chinatown 3"
+        sfsuLogo.image = UIImage (named: "Detective3")
     }
     
 }
